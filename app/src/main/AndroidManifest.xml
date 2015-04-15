@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.com.firstaid" >
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Child"
+            android:label="@string/title_activity_child" >
+        </activity>
+        <activity
+            android:name=".EyeInjury"
+            android:label="@string/title_activity_eye_injury" >
+        </activity>
+        <activity
+            android:name=".chocking"
+            android:label="@string/title_activity_chocking" >
+        </activity>
+        <activity
+            android:name=".Nosebleed"
+            android:label="@string/title_activity_nosebleed" >
+        </activity>
+        <activity
+            android:name=".Poisoning"
+            android:label="@string/title_activity_poisoning" >
+        </activity>
+        <activity
+            android:name=".CommonCases"
+            android:label="@string/title_activity_common_cases" >
+        </activity>
+        <activity
+            android:name=".Fainting"
+            android:label="@string/title_activity_fainting" >
+        </activity>
+        <activity
+            android:name=".Burns"
+            android:label="@string/title_activity_burns" >
+        </activity>
+        <activity
+            android:name=".rowning"
+            android:label="@string/title_activity_rowning" >
+        </activity>
+        <activity
+            android:name=".HeartAttack"
+            android:label="@string/title_activity_heart_attack" >
+        </activity>
+        <activity
+            android:name=".Bleeding"
+            android:label="@string/title_activity_bleeding" >
+        </activity>
+        <activity
+            android:name=".Breaking"
+            android:label="@string/title_activity_breaking" >
+        </activity>
+    </application>
+
+</manifest>

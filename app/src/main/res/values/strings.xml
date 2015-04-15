@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">First aid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signs">الحالات الشائعة</string>
+    <string name="child">إسعافات الأطفال</string>
+    <string name="desc">null</string>
+    <string name="burns">الحروق </string>
+    <string name="wounds">الجروح</string>
+    <string name="drowning">الغرق</string>
+    <string name="choking">الغصص والاختناق</string>
+    <string name="fainting">الإغماء</string>
+    <string name="breaking">الكسور</string>
+    <string name="Poisoning">التسمم</string>
+    <string name="animalbites">عضات الحيوانات</string>
+    <string name="bleeding">النزيف</string>
+    <string name="pressure">الضغط</string>
+    <string name="diabetes">السكري</string>
+    <string name="asthma">الربو</string>
+    <string name="heartattack">النوبة القلبية</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="heartrate">معدل ضربات القلب</string>
+    <string name="bloodpressure">ضغط الدم</string>
+    <string name="respirationrate">معدل التنفس</string>
+    <string name="Call">اتصل بنا</string>
+    <string name="injuries">إصابات الرأس والوجه</string>
+    <string name="title_activity_child">Child</string>
+    <string name="title_activity_eye_injury">EyeInjury</string>
+    <string name="title_activity_chocking">chocking</string>
+    <string name="title_activity_nosebleed">Nosebleed</string>
+    <string name="title_activity_poisoning">Poisoning</string>
+    <string name="title_activity_common_cases">CommonCases</string>
+    <string name="title_activity_fainting">Fainting</string>
+    <string name="title_activity_burns">Burns</string>
+    <string name="title_activity_rowning">rowning</string>
+    <string name="title_activity_heart_attack">HeartAttack</string>
+    <string name="title_activity_bleeding">Bleeding</string>
+    <string name="title_activity_breaking">Breaking</string>
+
+</resources>

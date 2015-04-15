@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ABB7B7" >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_backcon"
+            android:layout_height="32dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:onClick="GotoEyeInjuryPage"
+                android:background="@drawable/bg_rounded_corner">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_eye_icon"
+                    android:layout_gravity="center"
+                    android:onClick="GotoEyeInjuryPage"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="أصابة العين عند الأطفال"
+                    android:textSize="18sp"
+                    android:onClick="GotoEyeInjuryPage"
+                    android:textColor="#35404d"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="vertical"
+                android:onClick="Gotochocking"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/bg_rounded_corner">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:onClick="Gotochocking"
+                    android:src="@drawable/ic_chocking"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" الأختناق عد الأطفال"
+                    android:textSize="18sp"
+                    android:onClick="Gotochocking"
+                    android:textColor="#35404d"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:onClick="Gotonosebleed"
+            android:gravity="center"
+            android:background="@drawable/bg_rounded_corner">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_nosebleed"
+                android:onClick="Gotonosebleed"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" الرعاف عند الأطفال"
+                android:onClick="Gotonosebleed"
+                android:textSize="18sp"
+                android:textColor="#35404d"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:onClick="GotoPoisoning"
+                android:gravity="center"
+                android:background="@drawable/bg_rounded_corner">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_poisoning"
+                    android:onClick="GotoPoisoning"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="التسمم عند الأطفال"
+                    android:onClick="GotoPoisoning"
+                    android:textSize="18sp"
+                    android:textColor="#35404d"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+    </ScrollView>
+</RelativeLayout>
