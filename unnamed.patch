@@ -1,0 +1,2037 @@
+Index: app/app.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/app.iml	(revision )
++++ app/app.iml	(revision )
+@@ -0,0 +1,93 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" external.system.module.group="FirstAid" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
++  <component name="FacetManager">
++    <facet type="android-gradle" name="Android-Gradle">
++      <configuration>
++        <option name="GRADLE_PROJECT_PATH" value=":app" />
++      </configuration>
++    </facet>
++    <facet type="android" name="Android">
++      <configuration>
++        <option name="SELECTED_BUILD_VARIANT" value="debug" />
++        <option name="SELECTED_TEST_ARTIFACT" value="_android_test_" />
++        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
++        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
++        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleDebugAndroidTest" />
++        <option name="SOURCE_GEN_TASK_NAME" value="generateDebugSources" />
++        <option name="TEST_SOURCE_GEN_TASK_NAME" value="generateDebugAndroidTestSources" />
++        <option name="ALLOW_USER_CONFIGURATION" value="false" />
++        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
++        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
++        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
++        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
++      </configuration>
++    </facet>
++  </component>
++  <component name="NewModuleRootManager" inherit-compiler-output="false">
++    <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
++    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/androidTest/debug" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/debug" isTestSource="false" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/generated/debug" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/generated/androidTest/debug" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
++      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/coverage-instrumented-classes" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex-cache" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jacoco" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaResources" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/libs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ndk" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/proguard" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
++      <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
++      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
++    </content>
++    <orderEntry type="jdk" jdkName="Android API 21 Platform" jdkType="Android SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
++    <orderEntry type="library" exported="" name="support-v4-22.0.0" level="project" />
++    <orderEntry type="library" exported="" name="support-annotations-22.0.0" level="project" />
++  </component>
++</module>
++
+Index: app/src/main/res/menu/menu_poisoning.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_poisoning.xml	(revision )
++++ app/src/main/res/menu/menu_poisoning.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.Poisoning">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/menu/menu_breaking.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_breaking.xml	(revision )
++++ app/src/main/res/menu/menu_breaking.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.Breaking">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/.gitignore	(revision )
++++ app/.gitignore	(revision )
+@@ -0,0 +1,1 @@
++/build
+Index: app/src/main/java/com/example/com/firstaid/Fainting.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Fainting.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Fainting.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class Fainting extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_fainting);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_fainting, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/layout/activity_common_cases.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_common_cases.xml	(revision )
++++ app/src/main/res/layout/activity_common_cases.xml	(revision )
+@@ -0,0 +1,240 @@
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:background="#ABB7B7"
++    tools:context="com.example.com.firstaid.CommonCases">
++
++    <ScrollView
++        android:layout_width="fill_parent"
++        android:layout_height="wrap_content"
++        android:layout_centerInParent="true">
++        <FrameLayout
++            android:layout_width="fill_parent"
++            android:layout_height="fill_parent">
++
++            <ImageView
++                android:layout_width="32dp"
++                android:layout_gravity="center"
++                android:src="@drawable/ic_backcon"
++                android:layout_height="32dp" />
++
++
++            <LinearLayout
++                android:layout_width="fill_parent"
++                android:layout_height="fill_parent"
++                android:orientation="vertical">
++            <LinearLayout
++                android:layout_width="fill_parent"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:orientation="horizontal">
++
++                <LinearLayout
++                    android:layout_width="match_parent"
++                    android:layout_height="match_parent"
++                    android:orientation="vertical"
++                    android:layout_weight="1"
++                    android:layout_margin="10dp"
++                    android:gravity="center"
++                    android:onClick="Gotobleeding"
++                    android:background="@drawable/bg_rounded_corner">
++
++                    <ImageView
++                        android:layout_width="60dp"
++                        android:layout_height="60dp"
++                        android:src="@drawable/ic_bleed_icon"
++                        android:layout_gravity="center"
++                        android:onClick="Gotobleeding"
++                        android:layout_marginBottom="5dp" />
++
++                    <TextView
++                        android:layout_width="fill_parent"
++                        android:layout_height="wrap_content"
++                        android:text="النزيف"
++                        android:textSize="18sp"
++                        android:onClick="Gotobleeding"
++                        android:textColor="#35404d"
++                        android:layout_gravity="center"
++                        android:gravity="center"
++                        android:textStyle="bold" />
++
++                </LinearLayout>
++                <LinearLayout
++                    android:layout_width="match_parent"
++                    android:layout_height="match_parent"
++                    android:orientation="vertical"
++                    android:layout_weight="1"
++                    android:layout_margin="10dp"
++                    android:gravity="center"
++                    android:onClick="Gotofainting"
++                    android:background="@drawable/bg_rounded_corner">
++
++                    <ImageView
++                        android:layout_width="60dp"
++                        android:layout_height="60dp"
++                        android:src="@drawable/ic_fainting"
++                        android:layout_gravity="center"
++                        android:onClick="Gotofainting"
++                        android:layout_marginBottom="5dp" />
++
++                    <TextView
++                        android:layout_width="fill_parent"
++                        android:layout_height="wrap_content"
++                        android:text="الأغماء"
++                        android:textSize="18sp"
++                        android:onClick="Gotofainting"
++                        android:textColor="#35404d"
++                        android:layout_gravity="center"
++                        android:gravity="center"
++                        android:textStyle="bold" />
++
++                </LinearLayout>
++                </LinearLayout>
++            <LinearLayout
++                android:layout_width="fill_parent"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:orientation="horizontal">
++
++                <LinearLayout
++                    android:layout_width="match_parent"
++                    android:layout_height="match_parent"
++                    android:orientation="vertical"
++                    android:onClick="GotoHeartAttack"
++                    android:layout_weight="1"
++                    android:layout_margin="10dp"
++                    android:gravity="center"
++                    android:background="@drawable/bg_rounded_corner">
++
++                    <ImageView
++                        android:layout_width="60dp"
++                        android:layout_height="60dp"
++                        android:layout_gravity="center"
++                        android:onClick="GotoHeartAttack"
++                        android:src="@drawable/ic_heart_icon"
++                        android:layout_marginBottom="5dp" />
++
++                    <TextView
++                        android:layout_width="fill_parent"
++                        android:layout_height="wrap_content"
++                        android:text="النوبة القلبية"
++                        android:textSize="18sp"
++                        android:onClick="GotoHeartAttack"
++                        android:textColor="#35404d"
++                        android:layout_gravity="center"
++                        android:gravity="center"
++                        android:textStyle="bold" />
++
++                </LinearLayout>
++
++                <LinearLayout
++                    android:layout_width="match_parent"
++                    android:layout_height="match_parent"
++                    android:orientation="vertical"
++                    android:onClick="GotoBurns"
++                    android:layout_weight="1"
++                    android:layout_margin="10dp"
++                    android:gravity="center"
++                    android:background="@drawable/bg_rounded_corner">
++
++                    <ImageView
++                        android:layout_width="60dp"
++                        android:layout_height="60dp"
++                        android:layout_gravity="center"
++                        android:onClick="GotoBurns"
++                        android:src="@drawable/ic_burn_icon"
++                        android:layout_marginBottom="5dp" />
++
++                    <TextView
++                        android:layout_width="fill_parent"
++                        android:layout_height="wrap_content"
++                        android:text="الحروق"
++                        android:textSize="18sp"
++                        android:onClick="GotoBurns"
++                        android:textColor="#35404d"
++                        android:layout_gravity="center"
++                        android:gravity="center"
++                        android:textStyle="bold" />
++
++                </LinearLayout>
++                </LinearLayout>
++            <LinearLayout
++                android:layout_width="fill_parent"
++                android:layout_height="wrap_content"
++                android:layout_weight="1"
++                android:orientation="horizontal">
++
++                <LinearLayout
++                    android:layout_width="match_parent"
++                    android:layout_height="match_parent"
++                    android:orientation="vertical"
++                    android:layout_weight="1"
++                    android:layout_margin="10dp"
++                    android:onClick="GotoBreaking"
++                    android:gravity="center"
++                    android:background="@drawable/bg_rounded_corner">
++
++                    <ImageView
++                        android:layout_width="60dp"
++                        android:layout_height="60dp"
++                        android:src="@drawable/ic_break"
++                        android:onClick="GotoBreaking"
++                        android:layout_gravity="center"
++                        android:layout_marginBottom="5dp" />
++
++                    <TextView
++                        android:layout_width="fill_parent"
++                        android:layout_height="wrap_content"
++                        android:text="الكسور"
++                        android:onClick="GotoBreaking"
++                        android:textSize="18sp"
++                        android:textColor="#35404d"
++                        android:layout_gravity="center"
++                        android:gravity="center"
++                        android:textStyle="bold" />
++
++                </LinearLayout>
++                <LinearLayout
++                    android:layout_width="match_parent"
++                    android:layout_height="match_parent"
++                    android:orientation="vertical"
++                    android:layout_weight="1"
++                    android:layout_margin="10dp"
++                    android:onClick="GotoDrowing"
++                    android:gravity="center"
++                    android:background="@drawable/bg_rounded_corner">
++
++                    <ImageView
++                        android:layout_width="60dp"
++                        android:layout_height="60dp"
++                        android:src="@drawable/ic_sink_icon"
++                        android:onClick="GotoDrowing"
++                        android:layout_gravity="center"
++                        android:layout_marginBottom="5dp" />
++
++                    <TextView
++                        android:layout_width="fill_parent"
++                        android:layout_height="wrap_content"
++                        android:text="الغرق"
++                        android:onClick="GotoDrowing"
++                        android:textSize="18sp"
++                        android:textColor="#35404d"
++                        android:layout_gravity="center"
++                        android:gravity="center"
++                        android:textStyle="bold" />
++
++                </LinearLayout>
++                </LinearLayout>
++
++
++</LinearLayout>
++
++    </FrameLayout>
++    </ScrollView>
++    </RelativeLayout>
+Index: app/src/main/res/menu/menu_eye_injury.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_eye_injury.xml	(revision )
++++ app/src/main/res/menu/menu_eye_injury.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.EyeInjury">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/proguard-rules.pro
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/proguard-rules.pro	(revision )
++++ app/proguard-rules.pro	(revision )
+@@ -0,0 +1,17 @@
++# Add project specific ProGuard rules here.
++# By default, the flags in this file are appended to flags specified
++# in C:\Users\khalid\AppData\Local\Android\sdk/tools/proguard/proguard-android.txt
++# You can edit the include path and order by changing the proguardFiles
++# directive in build.gradle.
++#
++# For more details, see
++#   http://developer.android.com/guide/developing/tools/proguard.html
++
++# Add any project specific keep options here:
++
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
+Index: app/src/main/res/menu/menu_fainting.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_fainting.xml	(revision )
++++ app/src/main/res/menu/menu_fainting.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.Fainting">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/java/com/example/com/firstaid/Burns.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Burns.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Burns.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class Burns extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_burns);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_burns, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/menu/menu_chocking.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_chocking.xml	(revision )
++++ app/src/main/res/menu/menu_chocking.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.chocking">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/menu/menu_nosebleed.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_nosebleed.xml	(revision )
++++ app/src/main/res/menu/menu_nosebleed.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.Nosebleed">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/menu/menu_bleeding.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_bleeding.xml	(revision )
++++ app/src/main/res/menu/menu_bleeding.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.Bleeding">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/java/com/example/com/firstaid/chocking.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/chocking.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/chocking.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class chocking extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_chocking);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_chocking, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/menu/menu_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_main.xml	(revision )
++++ app/src/main/res/menu/menu_main.xml	(revision )
+@@ -0,0 +1,6 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/layout/activity_heart_attack.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_heart_attack.xml	(revision )
++++ app/src/main/res/layout/activity_heart_attack.xml	(revision )
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    >
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/imageView5"
++        android:src="@drawable/heartattack1" />
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/imageView4"
++        android:layout_gravity="center_horizontal"
++        android:src="@drawable/heartattack11" />
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/styles.xml	(revision )
++++ app/src/main/res/values/styles.xml	(revision )
+@@ -0,0 +1,8 @@
++<resources>
++
++    <!-- Base application theme. -->
++    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
++        <!-- Customize your theme here. -->
++    </style>
++
++</resources>
+Index: app/src/main/java/com/example/com/firstaid/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/MainActivity.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/MainActivity.java	(revision )
+@@ -0,0 +1,54 @@
++package com.example.com.firstaid;
++
++import android.net.Uri;
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++import android.content.Intent;
++import android.view.View;
++
++public class MainActivity extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_main);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_main, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++    public void GotoChildPage(View view) {
++        Intent intent = new Intent(getApplicationContext(),Child.class);
++        startActivity(intent);
++    }
++    public void GotoAid(View view) {
++        Intent intent = new Intent(getApplicationContext(),CommonCases.class);
++        startActivity(intent);
++    }
++    public void EmergencyCall(View view) {
++        Intent callIntent = new Intent(Intent.ACTION_CALL);
++        callIntent.setData(Uri.parse("tel:991"));
++        startActivity(callIntent);
++    }
++}
+Index: app/src/main/java/com/example/com/firstaid/rowning.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/rowning.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/rowning.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class rowning extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_drowning);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_rowning, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/layout/activity_breaking.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_breaking.xml	(revision )
++++ app/src/main/res/layout/activity_breaking.xml	(revision )
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++    <ImageView
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:id="@+id/imageView6"
++        android:src="@drawable/breaks11" />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/com/firstaid/HeartAttack.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/HeartAttack.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/HeartAttack.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class HeartAttack extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_heart_attack);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_heart_attack, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/menu/menu_heart_attack.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_heart_attack.xml	(revision )
++++ app/src/main/res/menu/menu_heart_attack.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.HeartAttack">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/java/com/example/com/firstaid/Nosebleed.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Nosebleed.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Nosebleed.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class Nosebleed extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_nosebleed);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_nosebleed, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/layout/activity_bleeding.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_bleeding.xml	(revision )
++++ app/src/main/res/layout/activity_bleeding.xml	(revision )
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:weightSum="1"
++    android:baselineAligned="false"
++    android:orientation="vertical"
++    >
++
++    <ImageView
++        android:layout_width="match_parent"
++        android:layout_height="275dp"
++        android:id="@+id/imageView2"
++        android:layout_gravity="bottom"
++        android:src="@drawable/bleeding2" />
++
++    <ImageView
++        android:layout_width="match_parent"
++        android:layout_height="290dp"
++        android:id="@+id/imageView"
++        android:src="@drawable/bleeding111" />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision )
++++ app/src/main/res/values/strings.xml	(revision )
+@@ -0,0 +1,42 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++
++    <string name="app_name">First aid</string>
++    <string name="hello_world">Hello world!</string>
++    <string name="action_settings">Settings</string>
++    <string name="signs">الحالات الشائعة</string>
++    <string name="child">إسعافات الأطفال</string>
++    <string name="desc">null</string>
++    <string name="burns">الحروق </string>
++    <string name="wounds">الجروح</string>
++    <string name="drowning">الغرق</string>
++    <string name="choking">الغصص والاختناق</string>
++    <string name="fainting">الإغماء</string>
++    <string name="breaking">الكسور</string>
++    <string name="Poisoning">التسمم</string>
++    <string name="animalbites">عضات الحيوانات</string>
++    <string name="bleeding">النزيف</string>
++    <string name="pressure">الضغط</string>
++    <string name="diabetes">السكري</string>
++    <string name="asthma">الربو</string>
++    <string name="heartattack">النوبة القلبية</string>
++    <string name="temperature">درجة الحرارة</string>
++    <string name="heartrate">معدل ضربات القلب</string>
++    <string name="bloodpressure">ضغط الدم</string>
++    <string name="respirationrate">معدل التنفس</string>
++    <string name="Call">اتصل بنا</string>
++    <string name="injuries">إصابات الرأس والوجه</string>
++    <string name="title_activity_child">Child</string>
++    <string name="title_activity_eye_injury">EyeInjury</string>
++    <string name="title_activity_chocking">chocking</string>
++    <string name="title_activity_nosebleed">Nosebleed</string>
++    <string name="title_activity_poisoning">Poisoning</string>
++    <string name="title_activity_common_cases">CommonCases</string>
++    <string name="title_activity_fainting">Fainting</string>
++    <string name="title_activity_burns">Burns</string>
++    <string name="title_activity_rowning">rowning</string>
++    <string name="title_activity_heart_attack">HeartAttack</string>
++    <string name="title_activity_bleeding">Bleeding</string>
++    <string name="title_activity_breaking">Breaking</string>
++
++</resources>
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(revision )
++++ app/build.gradle	(revision )
+@@ -0,0 +1,25 @@
++apply plugin: 'com.android.application'
++
++android {
++    compileSdkVersion 21
++    buildToolsVersion "21.1.2"
++
++    defaultConfig {
++        applicationId "com.example.com.firstaid"
++        minSdkVersion 15
++        targetSdkVersion 21
++        versionCode 1
++        versionName "1.0"
++    }
++    buildTypes {
++        release {
++            minifyEnabled false
++            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
++        }
++    }
++}
++
++dependencies {
++    compile fileTree(dir: 'libs', include: ['*.jar'])
++    compile 'com.android.support:appcompat-v7:22.0.0'
++}
+Index: app/src/main/java/com/example/com/firstaid/Poisoning.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Poisoning.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Poisoning.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class Poisoning extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_poisoning);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_poisoning, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/menu/menu_child.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_child.xml	(revision )
++++ app/src/main/res/menu/menu_child.xml	(revision )
+@@ -0,0 +1,6 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.com.firstaid.Child">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/layout/activity_drowning.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_drowning.xml	(revision )
++++ app/src/main/res/layout/activity_drowning.xml	(revision )
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="fill_parent"
++        android:id="@+id/imageview3"
++        android:layout_gravity="center_horizontal"
++        android:src="@drawable/drowning11" />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_eye_injury.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_eye_injury.xml	(revision )
++++ app/src/main/res/layout/activity_eye_injury.xml	(revision )
+@@ -0,0 +1,27 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:weightSum="1">
++
++    <ImageView
++        android:layout_width="400dp"
++        android:layout_height="0dp"
++        android:id="@+id/imageView15"
++        android:layout_gravity="center_horizontal"
++        android:src="@drawable/eyeinjury11"
++        android:layout_weight="0.50" />
++
++    <ImageView
++        android:layout_width="276dp"
++        android:layout_height="0dp"
++        android:id="@+id/imageView16"
++        android:src="@drawable/eyeinjury1"
++        android:layout_gravity="center_horizontal"
++        android:layout_weight="0.50" />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/com/firstaid/Bleeding.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Bleeding.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Bleeding.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class Bleeding extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_bleeding);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_bleeding, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/java/com/example/com/firstaid/CommonCases.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/CommonCases.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/CommonCases.java	(revision )
+@@ -0,0 +1,65 @@
++package com.example.com.firstaid;
++
++import android.content.Intent;
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++import android.view.View;
++
++
++public class CommonCases extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_common_cases);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_common_cases, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++    public void Gotobleeding(View view) {
++        Intent intent = new Intent(getApplicationContext(),Bleeding.class);
++        startActivity(intent);
++    }
++    public void Gotofainting(View view) {
++        Intent intent = new Intent(getApplicationContext(),Fainting.class);
++        startActivity(intent);
++    }
++    public void GotoHeartAttack(View view) {
++        Intent intent = new Intent(getApplicationContext(),HeartAttack.class);
++        startActivity(intent);
++    }
++    public void GotoBurns(View view) {
++        Intent intent = new Intent(getApplicationContext(),Burns.class);
++        startActivity(intent);
++    }
++    public void GotoBreaking(View view) {
++        Intent intent = new Intent(getApplicationContext(),Breaking.class);
++        startActivity(intent);
++    }
++    public void GotoDrowing(View view) {
++        Intent intent = new Intent(getApplicationContext(),rowning.class);
++        startActivity(intent);
++    }
++}
+Index: app/src/main/java/com/example/com/firstaid/Breaking.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Breaking.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Breaking.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class Breaking extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_breaking);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_breaking, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision )
++++ app/src/main/AndroidManifest.xml	(revision )
+@@ -0,0 +1,70 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.example.com.firstaid" >
++    <uses-permission android:name="android.permission.CALL_PHONE" />
++    <application
++        android:allowBackup="true"
++        android:icon="@mipmap/ic_launcher"
++        android:label="@string/app_name"
++        android:theme="@style/AppTheme" >
++
++        <activity
++            android:name=".MainActivity"
++            android:label="@string/app_name" >
++            <intent-filter>
++                <action android:name="android.intent.action.MAIN" />
++
++                <category android:name="android.intent.category.LAUNCHER" />
++            </intent-filter>
++        </activity>
++        <activity
++            android:name=".Child"
++            android:label="@string/title_activity_child" >
++        </activity>
++        <activity
++            android:name=".EyeInjury"
++            android:label="@string/title_activity_eye_injury" >
++        </activity>
++        <activity
++            android:name=".chocking"
++            android:label="@string/title_activity_chocking" >
++        </activity>
++        <activity
++            android:name=".Nosebleed"
++            android:label="@string/title_activity_nosebleed" >
++        </activity>
++        <activity
++            android:name=".Poisoning"
++            android:label="@string/title_activity_poisoning" >
++        </activity>
++        <activity
++            android:name=".CommonCases"
++            android:label="@string/title_activity_common_cases" >
++        </activity>
++        <activity
++            android:name=".Fainting"
++            android:label="@string/title_activity_fainting" >
++        </activity>
++        <activity
++            android:name=".Burns"
++            android:label="@string/title_activity_burns" >
++        </activity>
++        <activity
++            android:name=".rowning"
++            android:label="@string/title_activity_rowning" >
++        </activity>
++        <activity
++            android:name=".HeartAttack"
++            android:label="@string/title_activity_heart_attack" >
++        </activity>
++        <activity
++            android:name=".Bleeding"
++            android:label="@string/title_activity_bleeding" >
++        </activity>
++        <activity
++            android:name=".Breaking"
++            android:label="@string/title_activity_breaking" >
++        </activity>
++    </application>
++
++</manifest>
+Index: app/src/main/res/values-w820dp/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values-w820dp/dimens.xml	(revision )
++++ app/src/main/res/values-w820dp/dimens.xml	(revision )
+@@ -0,0 +1,6 @@
++<resources>
++    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
++         (such as screen margins) for screens with more than 820dp of available width. This
++         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
++    <dimen name="activity_horizontal_margin">64dp</dimen>
++</resources>
+Index: app/src/main/java/com/example/com/firstaid/Child.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/Child.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/Child.java	(revision )
+@@ -0,0 +1,60 @@
++package com.example.com.firstaid;
++
++import android.content.Intent;
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++import android.view.View;
++
++
++public class Child extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_child);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_child, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++    public void GotoEyeInjuryPage(View view) {
++        Intent intent = new Intent(getApplicationContext(),EyeInjury.class);
++        startActivity(intent);
++    }
++    //Gotochocking
++    public void Gotochocking(View view) {
++        Intent intent = new Intent(getApplicationContext(),chocking.class);
++        startActivity(intent);
++    }
++    //Gotonosebleed
++    public void Gotonosebleed(View view) {
++        Intent intent = new Intent(getApplicationContext(),Nosebleed.class);
++        startActivity(intent);
++    }
++    //GotoPoisoning
++    public void GotoPoisoning(View view) {
++        Intent intent = new Intent(getApplicationContext(),Poisoning.class);
++        startActivity(intent);
++    }
++}
+Index: app/src/main/res/layout/activity_fainting.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_fainting.xml	(revision )
++++ app/src/main/res/layout/activity_fainting.xml	(revision )
+@@ -0,0 +1,18 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/imageView8"
++        android:src="@drawable/fainting1" />
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/imageView7"
++        android:src="@drawable/fainting" />
++
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_burns.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_burns.xml	(revision )
++++ app/src/main/res/layout/activity_burns.xml	(revision )
+@@ -0,0 +1,17 @@
++<?xml version="1.0" encoding="utf-8"?>
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent">
++
++    <ImageView
++        android:layout_width="match_parent"
++        android:layout_height="300dp"
++        android:id="@+id/imageView9"
++        android:src="@drawable/burns11" />
++
++    <ImageView
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/imageView10"
++        android:src="@drawable/burns1" />
++</LinearLayout>
+\ No newline at end of file
+Index: app/src/main/res/menu/menu_burns.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_burns.xml	(revision )
++++ app/src/main/res/menu/menu_burns.xml	(revision )
+@@ -0,0 +1,6 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.com.firstaid.Burns">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/layout/activity_poisoning.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_poisoning.xml	(revision )
++++ app/src/main/res/layout/activity_poisoning.xml	(revision )
+@@ -0,0 +1,12 @@
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical" android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    >
++
++    <ImageView
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:id="@+id/imageView14"
++        android:layout_gravity="center_horizontal"
++        android:src="@drawable/poisoning11" />
++</LinearLayout>
+Index: app/src/main/res/layout/activity_nosebleed.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_nosebleed.xml	(revision )
++++ app/src/main/res/layout/activity_nosebleed.xml	(revision )
+@@ -0,0 +1,23 @@
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    android:orientation="vertical"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin">
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="250dp"
++        android:id="@+id/imageView11"
++        android:layout_gravity="center_horizontal"
++        android:src="@drawable/nosebleed11" />
++
++    <ImageView
++        android:layout_width="fill_parent"
++        android:layout_height="match_parent"
++        android:id="@+id/imageView12"
++        android:layout_gravity="center_horizontal"
++        android:src="@drawable/nosebleed1" />
++</LinearLayout>
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision )
++++ app/src/main/res/layout/activity_main.xml	(revision )
+@@ -0,0 +1,124 @@
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:background="#ABB7B7"
++    tools:context=".MainActivity">
++
++    <FrameLayout
++        android:layout_width="fill_parent"
++        android:layout_height="fill_parent">
++
++        <ImageView
++            android:layout_width="32dp"
++            android:layout_gravity="center"
++            android:src="@drawable/ic_backcon"
++            android:layout_height="32dp" />
++
++        <LinearLayout
++            android:layout_width="fill_parent"
++            android:layout_height="fill_parent"
++            android:orientation="vertical">
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="0dip"
++                android:orientation="vertical"
++                android:layout_weight="1"
++                android:layout_margin="10dp"
++                android:gravity="center"
++                android:onClick="GotoChildPage"
++                android:background="@drawable/bg_rounded_corner">
++
++                <ImageView
++                    android:layout_width="60dp"
++                    android:layout_height="60dp"
++                    android:src="@drawable/ic_chid"
++                    android:layout_gravity="center"
++                    android:onClick="GotoChildPage"
++                    android:layout_marginBottom="5dp" />
++
++                <TextView
++                    android:layout_width="fill_parent"
++                    android:layout_height="wrap_content"
++                    android:text="الأسعافات الخاصة بالأطفال"
++                    android:textSize="18sp"
++                    android:onClick="GotoChildPage"
++                    android:textColor="#35404d"
++                    android:layout_gravity="center"
++                    android:gravity="center"
++                    android:textStyle="bold" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="0dip"
++                android:orientation="vertical"
++                android:onClick="GotoAid"
++                android:layout_weight="1"
++                android:layout_margin="10dp"
++                android:gravity="center"
++                android:background="@drawable/bg_rounded_corner">
++
++                <ImageView
++                    android:layout_width="60dp"
++                    android:layout_height="60dp"
++                    android:layout_gravity="center"
++                    android:onClick="GotoAid"
++                    android:src="@drawable/ic_icon"
++                    android:layout_marginBottom="5dp" />
++
++                <TextView
++                    android:layout_width="fill_parent"
++                    android:layout_height="wrap_content"
++                    android:text="الأسعافات الشائعة"
++                    android:textSize="18sp"
++                    android:onClick="GotoAid"
++                    android:textColor="#35404d"
++                    android:layout_gravity="center"
++                    android:gravity="center"
++                    android:textStyle="bold" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="0dip"
++                android:orientation="vertical"
++                android:layout_weight="1"
++                android:layout_margin="10dp"
++                android:onClick="EmergencyCall"
++                android:gravity="center"
++                android:background="@drawable/bg_rounded_corner">
++
++                <ImageView
++                    android:layout_width="60dp"
++                    android:layout_height="60dp"
++                    android:src="@drawable/ic_call"
++                    android:onClick="EmergencyCall"
++                    android:layout_gravity="center"
++                    android:layout_marginBottom="5dp" />
++
++                <TextView
++                    android:layout_width="fill_parent"
++                    android:layout_height="wrap_content"
++                    android:text="الأتصال بالطوارئ"
++                    android:onClick="EmergencyCall"
++                    android:textSize="18sp"
++                    android:textColor="#35404d"
++                    android:layout_gravity="center"
++                    android:gravity="center"
++                    android:textStyle="bold" />
++
++            </LinearLayout>
++
++        </LinearLayout>
++
++    </FrameLayout>
++</RelativeLayout>
+Index: app/src/main/res/menu/menu_rowning.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_rowning.xml	(revision )
++++ app/src/main/res/menu/menu_rowning.xml	(revision )
+@@ -0,0 +1,6 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.com.firstaid.rowning">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
+Index: app/src/main/res/values/dimens.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/dimens.xml	(revision )
++++ app/src/main/res/values/dimens.xml	(revision )
+@@ -0,0 +1,5 @@
++<resources>
++    <!-- Default screen margins, per the Android Design guidelines. -->
++    <dimen name="activity_horizontal_margin">16dp</dimen>
++    <dimen name="activity_vertical_margin">16dp</dimen>
++</resources>
+Index: app/src/main/res/layout/activity_chocking.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_chocking.xml	(revision )
++++ app/src/main/res/layout/activity_chocking.xml	(revision )
+@@ -0,0 +1,18 @@
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:tools="http://schemas.android.com/tools"
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    tools:context="com.example.com.firstaid.chocking">
++
++
++
++        <ImageView
++            android:layout_width="fill_parent"
++            android:layout_height="fill_parent"
++            android:id="@+id/imageView13"
++            android:src="@drawable/choking11" />
++    </LinearLayout>
+Index: app/src/androidTest/java/com/example/com/firstaid/ApplicationTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/androidTest/java/com/example/com/firstaid/ApplicationTest.java	(revision )
++++ app/src/androidTest/java/com/example/com/firstaid/ApplicationTest.java	(revision )
+@@ -0,0 +1,13 @@
++package com.example.com.firstaid;
++
++import android.app.Application;
++import android.test.ApplicationTestCase;
++
++/**
++ * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
++ */
++public class ApplicationTest extends ApplicationTestCase<Application> {
++    public ApplicationTest() {
++        super(Application.class);
++    }
++}
+\ No newline at end of file
+Index: app/src/main/res/layout/activity_child.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_child.xml	(revision )
++++ app/src/main/res/layout/activity_child.xml	(revision )
+@@ -0,0 +1,157 @@
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
++
++
++    android:layout_width="match_parent"
++    android:layout_height="match_parent"
++    android:paddingLeft="@dimen/activity_horizontal_margin"
++    android:paddingRight="@dimen/activity_horizontal_margin"
++    android:paddingTop="@dimen/activity_vertical_margin"
++    android:paddingBottom="@dimen/activity_vertical_margin"
++    android:background="#ABB7B7" >
++    <ScrollView
++        android:layout_width="fill_parent"
++        android:layout_height="wrap_content"
++        android:layout_centerInParent="true">
++    <FrameLayout
++        android:layout_width="fill_parent"
++        android:layout_height="fill_parent">
++
++        <ImageView
++            android:layout_width="32dp"
++            android:layout_gravity="center"
++            android:src="@drawable/ic_backcon"
++            android:layout_height="32dp" />
++
++        <LinearLayout
++            android:layout_width="fill_parent"
++            android:layout_height="fill_parent"
++            android:orientation="vertical">
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="0dip"
++                android:orientation="vertical"
++                android:layout_weight="1"
++                android:layout_margin="10dp"
++                android:gravity="center"
++                android:onClick="GotoEyeInjuryPage"
++                android:background="@drawable/bg_rounded_corner">
++
++                <ImageView
++                    android:layout_width="60dp"
++                    android:layout_height="60dp"
++                    android:src="@drawable/ic_eye_icon"
++                    android:layout_gravity="center"
++                    android:onClick="GotoEyeInjuryPage"
++                    android:layout_marginBottom="5dp" />
++
++                <TextView
++                    android:layout_width="fill_parent"
++                    android:layout_height="wrap_content"
++                    android:text="أصابة العين عند الأطفال"
++                    android:textSize="18sp"
++                    android:onClick="GotoEyeInjuryPage"
++                    android:textColor="#35404d"
++                    android:layout_gravity="center"
++                    android:gravity="center"
++                    android:textStyle="bold" />
++
++            </LinearLayout>
++
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="0dip"
++                android:orientation="vertical"
++                android:onClick="Gotochocking"
++                android:layout_weight="1"
++                android:layout_margin="10dp"
++                android:gravity="center"
++                android:background="@drawable/bg_rounded_corner">
++
++                <ImageView
++                    android:layout_width="60dp"
++                    android:layout_height="60dp"
++                    android:layout_gravity="center"
++                    android:onClick="Gotochocking"
++                    android:src="@drawable/ic_chocking"
++                    android:layout_marginBottom="5dp" />
++
++                <TextView
++                    android:layout_width="fill_parent"
++                    android:layout_height="wrap_content"
++                    android:text=" الأختناق عد الأطفال"
++                    android:textSize="18sp"
++                    android:onClick="Gotochocking"
++                    android:textColor="#35404d"
++                    android:layout_gravity="center"
++                    android:gravity="center"
++                    android:textStyle="bold" />
++
++            </LinearLayout>
++
++            <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="0dip"
++            android:orientation="vertical"
++            android:layout_weight="1"
++            android:layout_margin="10dp"
++            android:onClick="Gotonosebleed"
++            android:gravity="center"
++            android:background="@drawable/bg_rounded_corner">
++
++            <ImageView
++                android:layout_width="60dp"
++                android:layout_height="60dp"
++                android:src="@drawable/ic_nosebleed"
++                android:onClick="Gotonosebleed"
++                android:layout_gravity="center"
++                android:layout_marginBottom="5dp" />
++
++            <TextView
++                android:layout_width="fill_parent"
++                android:layout_height="wrap_content"
++                android:text=" الرعاف عند الأطفال"
++                android:onClick="Gotonosebleed"
++                android:textSize="18sp"
++                android:textColor="#35404d"
++                android:layout_gravity="center"
++                android:gravity="center"
++                android:textStyle="bold" />
++
++        </LinearLayout>
++            <LinearLayout
++                android:layout_width="match_parent"
++                android:layout_height="0dip"
++                android:orientation="vertical"
++                android:layout_weight="1"
++                android:layout_margin="10dp"
++                android:onClick="GotoPoisoning"
++                android:gravity="center"
++                android:background="@drawable/bg_rounded_corner">
++
++                <ImageView
++                    android:layout_width="60dp"
++                    android:layout_height="60dp"
++                    android:src="@drawable/ic_poisoning"
++                    android:onClick="GotoPoisoning"
++                    android:layout_gravity="center"
++                    android:layout_marginBottom="5dp" />
++
++                <TextView
++                    android:layout_width="fill_parent"
++                    android:layout_height="wrap_content"
++                    android:text="التسمم عند الأطفال"
++                    android:onClick="GotoPoisoning"
++                    android:textSize="18sp"
++                    android:textColor="#35404d"
++                    android:layout_gravity="center"
++                    android:gravity="center"
++                    android:textStyle="bold" />
++
++            </LinearLayout>
++
++        </LinearLayout>
++
++    </FrameLayout>
++    </ScrollView>
++</RelativeLayout>
+Index: app/src/main/java/com/example/com/firstaid/EyeInjury.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/com/firstaid/EyeInjury.java	(revision )
++++ app/src/main/java/com/example/com/firstaid/EyeInjury.java	(revision )
+@@ -0,0 +1,39 @@
++package com.example.com.firstaid;
++
++import android.support.v7.app.ActionBarActivity;
++import android.os.Bundle;
++import android.view.Menu;
++import android.view.MenuItem;
++
++
++public class EyeInjury extends ActionBarActivity {
++
++    @Override
++    protected void onCreate(Bundle savedInstanceState) {
++        super.onCreate(savedInstanceState);
++        setContentView(R.layout.activity_eye_injury);
++    }
++
++
++    @Override
++    public boolean onCreateOptionsMenu(Menu menu) {
++        // Inflate the menu; this adds items to the action bar if it is present.
++        getMenuInflater().inflate(R.menu.menu_eye_injury, menu);
++        return true;
++    }
++
++    @Override
++    public boolean onOptionsItemSelected(MenuItem item) {
++        // Handle action bar item clicks here. The action bar will
++        // automatically handle clicks on the Home/Up button, so long
++        // as you specify a parent activity in AndroidManifest.xml.
++        int id = item.getItemId();
++
++        //noinspection SimplifiableIfStatement
++        if (id == R.id.action_settings) {
++            return true;
++        }
++
++        return super.onOptionsItemSelected(item);
++    }
++}
+Index: app/src/main/res/menu/menu_common_cases.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/menu/menu_common_cases.xml	(revision )
++++ app/src/main/res/menu/menu_common_cases.xml	(revision )
+@@ -0,0 +1,7 @@
++<menu xmlns:android="http://schemas.android.com/apk/res/android"
++    xmlns:app="http://schemas.android.com/apk/res-auto"
++    xmlns:tools="http://schemas.android.com/tools"
++    tools:context="com.example.com.firstaid.CommonCases">
++    <item android:id="@+id/action_settings" android:title="@string/action_settings"
++        android:orderInCategory="100" app:showAsAction="never" />
++</menu>
